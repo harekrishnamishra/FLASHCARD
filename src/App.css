@@ -1,38 +1,411 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media(prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
+#img{
+  width: 60%;
+  margin-top: 1.7rem;
+  margin-bottom: 1rem;
+}
+.team-list {
+    width: 100%;
+    padding: 1rem 1rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 2rem !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgb(166, 166, 166);
+}
+.team-list-sub{
+  display: flex;
+  justify-content: space-around !important;
+}
+
+.first-sec {
+    display: flex;
+}
+
+.flash-list {
+    margin-top: 3rem !important;
+}
+button:active {
+    background-color: gray;
+    color: white;
+}
+.view-flash {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(234, 228, 228);
+}
+
+.view-flash-body-sec {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    border: 2px solid black;
+}
+#add-more {
+    border: none;
+}
+.nav {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    box-shadow: 1px 2px 8px rgb(198, 198, 198);
+    width: 100%;
+    z-index: 0;
+}
+h2 {
+    font-family: sans-serif;
+    border-bottom: 3px solid;
+    border-top: none;
+    border-radius: 18px;
+    padding: 0 16px !important;
+    margin: none !important;
+
+}
+#span {
+    color: red;
+    font-weight: 600;
+}
+#view-cards {
+    background-image: linear-gradient(to bottom right, rgb(255, 5, 5), rgb(238, 255, 0)) !important;
+    border: none !important;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+}
+
+.header-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: 1rem;
+}
+.header-link2 {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+    margin: 1rem;
+    border-bottom: 4px solid red
+}
+
+.hr {
+    border-bottom: 1px solid gray;
+}
+
+.head {
+    display: flex;
+    margin: 1rem;
+}
+.body {
+    background-color: rgb(237, 237, 237);
+}
+:root {
+    background-color: rgb(237, 237, 237);
+}
+input[type='file'] {
+    padding: 0.4rem 1rem;
+    margin-top: 2.4rem;
+    width: 70%;
+    margin-left: -0.8rem;
+    background-color: rgb(229, 229, 229);
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+
+input[type='file'] {
+    /* padding: 0.4rem 1rem; */ 
+    margin-bottom: 1rem;
+    margin-left: 0.2rem;
+    width: 83%;
+    &::-webkit-file-upload-button {
+        display: none;
+    }
+}
+input[type='file']:active{
+  background-color: rgb(110, 100, 100);
+}
+.single-input{
+  background-color: rgb(224, 224, 224);
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: -0.7rem;
+}
+#def{
+  margin-left: 0.2rem;
+}
+textarea{
+  background-color: rgb(224, 224, 224);
+  border: none;
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  width: 80%;
+}
+
+.submit{
+  background-image: linear-gradient(to bottom right, rgb(255, 5, 5), rgb(238, 255, 0)) !important;
+    border: none !important;
+    border-radius: 20px !important;
+    padding: 0.7rem 4rem !important;
+    color: white !important;
+    font-family: sans-serif !important;
+    font-weight: 600 !important;
+    margin: auto !important;
+}
+.submit:active{
+  box-shadow: 0px 0px 7px orange !important;
+  color: black !important;
+}
+.submit-btn{
+  margin: 4rem !important;
+  text-align: center !important;
+}
+label{
+  font-family: sans-serif;
+  color: rgb(81, 80, 80);
+  font-weight: 600;
+}
+#icon-img{
+  border-radius: 50%;
+  object-fit: cover;
+  width: 30%;
+  margin: auto;
+  height: 5rem;
+  position: relative;
+  top: -2rem;
+}
+.card{
+  text-align: center !important;
+  box-shadow: 0px 0px 7px rgb(201, 199, 199) !important;
+  margin: auto;
+}
+#cont{
+  margin: auto;
+}
+.view-baba{
+  padding: 1rem 2rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  margin-top: 2rem !important;
+  margin: 1rem;
+}
+.img-view{
+  width: 100%;
+}
+.last{
+  margin: 1rem !important;
+  width: 15rem;
+}
+.share{
+  margin: auto;
+  margin-top: 3rem !important;
+  text-align: center;
+}
+.del-icon{
+  color: red;
+  position: absolute;
+  top: 2%;
+  left: 85%;
+}
+.del-icon:active{
+  color: black;
+}
+#red{
+  color: rgb(255, 23, 23) !important;
+  border: none;
+}
+#red:active{
+  color: gray;
+}
+.disable{
+  pointer-events: none;
+  opacity: 0.5;
+  border: none !important;
+    border-radius: 20px;
+    padding: 0.7rem 4rem;
+    color: rgb(206, 206, 206);
+    font-family: sans-serif;
+    font-weight: 600;
+    background-image: linear-gradient(to bottom right, rgb(255, 5, 5), rgb(238, 255, 0)) !important;
+}
+.disable2{
+  pointer-events: none;
+  opacity: 0.6;
+}
+.cont{
+  margin-left: -1rem;
+}
+.cont2{
+  margin-left: -1.7rem;
+}
+.alert{
+  position:fixed !important;
+  top: 12%;
+  left: 35%;
+  text-align: center;
+  margin: auto;
+  z-index: 1 !important;
+  width: 13rem;
+}
+.empty-btn{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  margin: auto !important;
+}
+.empty{
+  border: 2px solid rgb(239, 142, 142) !important;
+  padding: 1rem !important;
+  border-radius: 28px;
+  border-top: none !important;
+  font-family: system-ui;
+    font-weight: 700;
+    color: #de0000bd !important;
+}
+#back{
+  font-size: larger;
+  color: #ff0000;
+}
+#back:active{
+  color: gray;
+}
+#bold{
+  font-size: x-large !important;
+}
+#black{
+  color: black ;
+}
+.pagination{
+  position: relative;
+  top: 4rem;
+  margin-bottom: 1rem;
+}
+#h4{
+  margin: auto !important;
+}
+.flash-list .cls{
+  transition: .3s ease-in-out !important;
+}
+/* .ct:hover .cls{
+  filter: blur(4px);
+  transform: scale(.9);
+  opacity: .5;
+}
+.ct .cls:hover{
+  filter: blur(0);
+  transform: scale(1);
+  opacity: 1;
+} */
+.link-share{
+  border-radius: 15px !important;
+  padding: 0.5rem 2rem !important;
+}
+#share-icon{
+  display: flex !important;
+  justify-content: space-around !important;
+}
+.head{
+  z-index: 1 !important;
+  overflow: hidden !important;
+}
+.empty-img-img{
+  max-width: 100%;
+  max-height: 31rem;
+  object-fit: cover;
+}
+#img-input{
+  cursor: pointer;
+}
+form{
+  background-color: rgb(255, 239, 239);
+  border: 1.5px dashed rgb(207, 66, 66);
+  border-radius: 5px;
+  padding: 0.4rem 1rem;
+  width: 100;
+  margin-left: 0.2rem;
+  margin-bottom: 1rem;
+  margin-top: 2.3rem;
+  min-width: 10.5rem;
+  max-width: 12.5rem;
+}
+.cont2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  max-width: 1rem;
+}
+#h5{
+  text-align: center;
+}
+#add-more{
+  background: transparent;
+    color: #eb0000;
+    font-weight: 600;
+    font-size: large;
+}
+#add-more:active{
+  color: rgb(56, 56, 56) !important;
+}
+form{
+  cursor: pointer;
+}
+#view{
+  margin-top: 0.2rem;
+  transition: 1s;
+}
+#view2:active{
+  padding: 0.2rem 0.7rem;
+  color: rgb(0, 0, 0) !important;
+  background-color: rgb(255, 222, 218);
+  border-radius: 10px;
+}
+
+
+
+
