@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import ViewFlash from './ViewFlash';
+import ViewFlash from '../ViewFlash';
 import { Provider } from 'react-redux'; // You may need to mock your Redux store
 
 // Mock your Redux store (you can replace this with your actual store configuration)
